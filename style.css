@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(45deg, #1e1e1e, #333, #444);
+    color: white;
+}
+
+h1 {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.status {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hand {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    min-height: 100px;
+}
+
+.card {
+    background: linear-gradient(135deg, #ff5, #f80);
+    color: black;
+    font-size: 1.5em;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px yellow;
+}
+
+#battlefield {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+button {
+    background: gold;
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: orange;
+    transform: scale(1.1);
+}
+
+#battle-log {
+    margin-top: 20px;
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Kartu Rummy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Game Kartu Rummy</h1>
+
+    <div class="status">
+        <p>Pemain HP: <span id="player-hp">20</span></p>
+        <p>Komputer HP: <span id="computer-hp">20</span></p>
+    </div>
+
+    <div class="game-area">
+        <div id="computer-hand" class="hand">Komputer</div>
+        <div id="battlefield"></div>
+        <div id="player-hand" class="hand">Pemain</div>
+    </div>
+
+    <button id="draw-player">Ambil Kartu</button>
+
+    <div id="battle-log"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
